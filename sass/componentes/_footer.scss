@@ -1,0 +1,30 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixins";
+//footer
+.estilofooter{
+    height: 10%;
+    min-width: 320px;
+    max-width: 100%;
+    @include crear-flexbox(row);
+    background-image: url(../imag/fondonav3.png);
+    p{
+        font-size: 16px;
+        font-family: $tipografia;
+        color: aliceblue;
+    }
+        
+    
+
+}
+.ordenlogos{
+    margin: 20px;
+    @include  crear-flexbox (row);
+    .logosfooter{
+        height: 40px;
+        width: 40px;
+    }
+    #face {
+        height: 50px;
+        width: 50px;
+    }
+}

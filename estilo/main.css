@@ -1,0 +1,506 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../imag/estetica.png);
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.estilofooter {
+  height: 10%;
+  min-width: 320px;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background-image: url(../imag/fondonav3.png);
+}
+.estilofooter p {
+  font-size: 16px;
+  font-family: "Bokor", system-ui;
+  color: aliceblue;
+}
+
+.ordenlogos {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.ordenlogos .logosfooter {
+  height: 40px;
+  width: 40px;
+}
+.ordenlogos #face {
+  height: 50px;
+  width: 50px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  margin-top: 0;
+  margin-left: 10px;
+  box-shadow: rgba(0, 0, 0, 0.5333333333);
+}
+
+#CambioBootsraps {
+  position: relative;
+}
+
+.logonav {
+  color: aliceblue;
+  font-family: "Bokor", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.nav2 {
+  background-image: url(../imag/fondonav3.png);
+  height: 100%;
+}
+
+.nav-link {
+  color: white !important;
+  padding-left: 30px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.offcanvas-header {
+  background-image: url(../Imag/fondonav3.png) !important;
+  margin: 0;
+}
+
+.container-fluid {
+  background-image: url(../Imag/fondonav3.png);
+  border-image-outset: 10px;
+}
+
+.contenedor3 {
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  min-width: 320px;
+  max-width: 100%;
+  height: 100%;
+  margin-top: 150px;
+  padding: 2%;
+}
+.contenedor3 h1 {
+  height: 20%;
+  width: 100%;
+  font-size: 50px;
+  font-family: "Bokor", system-ui;
+  text-align: center;
+  margin-top: 100px;
+}
+.contenedor3 h2 {
+  height: 20%;
+  width: 100%;
+  font-size: 25px;
+  font-family: "Bokor", system-ui;
+  text-align: center;
+}
+.contenedor3 .parPrincipal {
+  height: 100%;
+  min-width: 100%;
+  max-width: 500px;
+  margin: 20px;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.contenedor3 .horario {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  padding: 20px;
+  height: 100px;
+  width: 200px;
+}
+.contenedor3 .horario p {
+  height: 200px;
+  width: 300px;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.contenedor3 .horario h3 {
+  align-items: center;
+  height: 20%;
+  width: 100%;
+  font-size: 25px;
+  font-family: "Bokor", system-ui;
+  text-align: center center;
+}
+.contenedor3 .ordenitems3 {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.contenedor3 .ordenitems3 .items2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin: 10px;
+}
+.contenedor3 .ordenitems3 .items2 .imagenesiconos2 {
+  height: 55px;
+  width: 55px;
+  margin-right: 20px;
+}
+
+.titulo {
+  height: 20%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.titulo h1 {
+  font-size: 50px;
+  font-family: "Bokor", system-ui;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.caja1 {
+  min-width: 320px;
+  max-width: 100%;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.caja1 .caja2 {
+  height: 33%;
+  min-width: 300px;
+  width: 600px;
+  margin: 10px;
+  border-left: 10px;
+  border-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-bottom: rgb(46, 48, 49);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.caja1 .caja2 h2 {
+  font-family: "Bokor", system-ui;
+  font-size: 25px;
+}
+.caja1 .caja2 p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.caja1 .caja2 .caja3 {
+  height: 50%;
+  max-width: 500px;
+  min-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.caja1 .caja2 .caja3 img {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
+.contenedorcontactanos {
+  min-width: 320px;
+  max-width: 100%;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.contenedorcontactanos .titu {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.contenedorcontactanos .titu h2 {
+  font-size: 50px;
+  font-family: "Bokor", system-ui;
+}
+.contenedorcontactanos .titu p {
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.contenedorcontactanos .itemscontactos {
+  height: 50%;
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.contenedorcontactanos .itemscontactos .ordenitems {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.contenedorcontactanos .itemscontactos .ordenitems .iconos_contactos {
+  height: 30px;
+  width: 30px;
+}
+.contenedorcontactanos .itemscontactos .ordenitems iframe {
+  height: 150px;
+  width: 150px;
+}
+.contenedorcontactanos .itemscontactos .cajaPadreForm {
+  padding: 20px;
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.contenedorcontactanos .itemscontactos .cajaPadreForm h4 {
+  font-family: "Bokor", system-ui;
+  font-size: 30px;
+}
+.contenedorcontactanos .itemscontactos .cajaPadreForm form {
+  padding: auto;
+  margin: 10px;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.contenedorcontactanos .itemscontactos .cajaPadreForm form .cajitasInput {
+  height: 10%;
+  width: 100%;
+  margin: 5px;
+  border-radius: 2px;
+}
+
+.contenedor1 {
+  min-width: 320px;
+  max-width: 100%;
+  height: 500%;
+  margin-top: 150px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.contenedor1 div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.contenedor1 div h1 {
+  height: 100px;
+  width: 100%;
+  font-family: "Bokor", system-ui;
+  font-size: 50px;
+  text-align: center;
+}
+.contenedor1 div h2 {
+  height: 50px;
+  width: 100%;
+  font-family: "Bokor", system-ui;
+  font-size: 25px;
+  text-align: center;
+}
+.contenedor1 div p {
+  min-width: 200px;
+  max-width: 500px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.contenedorcontacto2 {
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 100%;
+  width: 100%;
+  margin-top: 150px;
+  min-width: 320px;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.contenedorcontacto2 .itemscontactos2 {
+  margin-top: 30px;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.contenedorcontacto2 .itemscontactos2 h1 {
+  height: 20%;
+  width: 100%;
+  font-family: "Bokor", system-ui;
+  font-size: 50px;
+  text-align: center;
+}
+.contenedorcontacto2 .itemscontactos2 p {
+  padding: 20px;
+  height: 20%;
+  width: 50%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  text-align: center;
+  text-wrap: 15px;
+}
+.contenedorcontacto2 .ordenitems2 {
+  height: 50px;
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.contenedorcontacto2 .ordenitems2 .par2 {
+  height: 20px;
+  width: 200px;
+  font-size: 16px;
+  text-align: start;
+}
+.contenedorcontacto2 .ordenitems2 .iconoImail {
+  height: 50px;
+  width: 65px;
+}
+.contenedorcontacto2 .cajaPadreForm {
+  height: 50%;
+  max-width: 400px;
+  min-width: 200px;
+  margin: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  border-color: black;
+  border-bottom: 5px;
+  border-left: 15px;
+  align-items: center;
+  justify-items: center;
+}
+.contenedorcontacto2 .cajaPadreForm h4 {
+  font-family: "Bokor", system-ui;
+  font-size: 16px;
+}
+.contenedorcontacto2 .cajaPadreForm form {
+  padding: auto;
+  margin: 10px;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.contenedorcontacto2 .cajaPadreForm form .cajitasInput {
+  height: 10%;
+  width: 100%;
+  margin: 5px;
+  border-radius: 2px;
+}
+
+/*# sourceMappingURL=main.css.map */

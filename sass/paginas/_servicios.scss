@@ -1,0 +1,51 @@
+@import "../utilidades/mixins";
+@import "../utilidades/variables";
+//servicios
+.titulo{
+    height: 20%;
+    width: 100%;
+    background-color: $color-fondo;
+    h1{
+      font-size: 50px;
+      font-family: $tipografia;
+      margin-top: 150px;
+      text-align: center;
+    }
+  } 
+  .caja1{
+    min-width: 320px;
+    max-width: 100%;
+    height: 50%;
+    background-color: $color-fondo;
+    @include crear-flexbox(row);
+    .caja2{
+      height: 33%;
+      min-width: 300px;
+      width: 600px;
+      margin: 10px;
+      border-left: 10px;
+      border-bottom: 10px;
+      background-color: $color-fondo;
+      border-bottom: rgb(46, 48, 49);
+      @include crear-flexbox (column);
+       h2{
+        font-family:$tipografia;
+        font-size: 25px;
+        }
+      p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        }
+      .caja3{
+        height: 50%;
+        max-width: 500px;
+        min-width: 300px;
+        @include crear-flexbox(row);
+        img{
+          height: 100px;
+          width: 100px;
+          margin: 20px;
+          }
+        }
+      }
+  }

@@ -1,0 +1,23 @@
+//mixin
+@mixin crear-flexbox ($aliniacion){
+    display: flex;
+      flex-wrap: wrap;
+      flex-direction: $aliniacion ; 
+      align-content: center; 
+      justify-content: center; 
+      align-items: center; 
+      justify-items: center; 
+  } 
+  @mixin crear-responsive ($alinecion){
+    height: $alinecion;
+    width: 100%;
+  }
+  @mixin crear-grid ($contenido1 , $contenido2){
+    display: grid;
+    grid-template-columns:$contenido1;
+    grid-template-rows: $contenido2;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }

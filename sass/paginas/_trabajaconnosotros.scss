@@ -1,0 +1,87 @@
+@import "../utilidades/mixins";
+@import "../utilidades/variables";
+//contactos
+
+.contenedorcontacto2{ 
+    background-color: $color-fondo;
+  @include crear-responsive(100%);
+  margin-top: 150px;
+  min-width: 320px;
+  max-width: 100%;
+  @include crear-flexbox(column);
+   .itemscontactos2{ 
+    margin-top: 30px;
+      height: 30%;
+      width: 100%;
+      @include crear-flexbox (column);
+   
+      h1{ 
+        height: 20%; 
+        width: 100%; 
+        font-family: $tipografia; 
+        font-size:50px; 
+        text-align: center;  
+      }
+      p{  
+        padding: 20px;
+        height: 20%; 
+        width: 50%; 
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        font-size: 15px;  
+        text-align: center;
+        text-wrap: 15px;
+      }
+     }
+     .ordenitems2{ 
+      height: 50px;
+      width:100%;
+      margin-top: 0;
+      @include crear-flexbox(row);
+       .par2{
+        height: 20px;
+        width: 200px;
+        font-size: 16px; 
+        text-align: start;
+  
+       }
+       .iconoImail{
+       height: 50px;
+       width: 65px;
+      }
+     }
+     .cajaPadreForm{
+      height: 50%;
+      max-width: 400px;
+      min-width: 200px;
+      margin: 10px;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      background-color: aliceblue;
+      border-color: black;
+      border-bottom: 5px;
+      border-left: 15px;
+      align-items: center;
+      justify-items: center;
+      h4{
+        font-family: $tipografia;
+        font-size: 16px;
+      }
+      form{
+        padding: auto;
+        margin: 10px;
+        height: 50%;
+        width: 100%;
+       @include crear-flexbox(column);
+        .cajitasInput{
+          height: 10%;
+          width: 100%;
+          margin: 5px;
+          border-radius: 2px ;
+        }
+  
+      }
+  
+     }
+  
+  }

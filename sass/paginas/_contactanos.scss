@@ -1,0 +1,65 @@
+@import"../utilidades/mixins";
+@import "../utilidades/variables";
+//agenda tu turno 
+.contenedorcontactanos{
+    min-width: 320px;
+    max-width: 100%;
+    height: 50%;
+    background-color: $color-fondo;
+    margin-top: 150px;
+    @include crear-flexbox(column);
+    .titu{
+      height: 20%;
+      width: 100%;
+      @include crear-flexbox(column);
+      h2{
+        font-size: 50px;
+        font-family: $tipografia;
+      }
+      p{
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+    }
+    .itemscontactos{
+      height: 50%;
+      width: 100%;
+      margin: 20px;
+      @include crear-flexbox(row);
+      .ordenitems{
+        margin: 20px;
+        @include crear-flexbox(row); 
+        .iconos_contactos{ 
+          height: 30px; 
+          width: 30px; 
+        }
+        iframe{ 
+          height: 150px; 
+          width: 150px; 
+        }
+      }
+      .cajaPadreForm{
+        padding: 20px;
+        background-color: aliceblue;
+        @include crear-flexbox(column);
+        h4{
+          font-family: $tipografia;
+          font-size: 30px;
+        }
+        form{
+          padding: auto;
+          margin: 10px;
+          height: 50%;
+          width: 100%;
+         @include crear-flexbox(column);
+          .cajitasInput{
+            height: 10%;
+            width: 100%;
+            margin: 5px;
+            border-radius: 2px ;
+          }
+    
+        }
+      }
+    }
+  }

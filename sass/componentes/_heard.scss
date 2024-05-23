@@ -1,0 +1,45 @@
+
+//nav
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 0;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5333333333);
+  }
+  
+  #CambioBootsraps {
+    position: relative;
+  }
+  
+  .logonav {
+    color: aliceblue;
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
+  
+  .nav2 {
+    background-image: url(../imag/fondonav3.png);
+    height: 100%;
+  }
+  
+  .nav-link {
+    color: white !important;
+    padding-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .offcanvas-header {
+    background-image: url(../Imag/fondonav3.png) !important;
+    margin: 0;
+  }
+  
+  .container-fluid {
+    background-image: url(../Imag/fondonav3.png);
+    border-image-outset: 10px;
+  }
